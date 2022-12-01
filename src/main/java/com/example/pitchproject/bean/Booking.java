@@ -12,6 +12,9 @@ public class Booking {
     private int idVoucher;
     private int status;
 
+    public Booking() {
+    }
+
     public Booking(int id, int id_pitch, int id_user, Date date, int price, String description, int idVoucher, int status) {
         this.id = id;
         this.idPitch = id_pitch;
